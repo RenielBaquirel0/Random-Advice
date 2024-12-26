@@ -1,0 +1,91 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: gold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background: #0078d4;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #0056a3;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Chatbox Styling */
+#chat-box {
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+#advice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Input Section */
+.input-section {
+    padding: 20px;
+    background: #fefefe;
+}
+
+#get-advice-btn {
+    background: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#get-advice-btn:hover {
+    background: #0056a3;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    padding: 10px;
+    font-size: 12px;
+    color: #666;
+}
